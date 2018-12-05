@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Account login to Futuready website</description>
+   <name>SubsVal_TC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59c110e3-2d2d-4624-b306-929e273ef175</testCaseGuid>
+</TestCaseEntity>

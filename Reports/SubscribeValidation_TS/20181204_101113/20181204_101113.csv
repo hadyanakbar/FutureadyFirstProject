@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SubscribeValidation_TS,Firefox 63.0,,2018-12-04 10:11:15,2018-12-04 10:11:27,11.861s,PASSED
+,,,,,,
+Test Cases/FutureadyLogin,Firefox 63.0,Account login to Futuready website,2018-12-04 10:11:15,2018-12-04 10:11:27,11.620s,PASSED
+"openBrowser("""")",Firefox 63.0,,2018-12-04 10:11:15,2018-12-04 10:11:19,3.643s,PASSED
+"navigateToUrl(""https://www.futuready.com/"")",Firefox 63.0,,2018-12-04 10:11:19,2018-12-04 10:11:24,4.641s,PASSED
+"click(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/a_Masuk""))",Firefox 63.0,,2018-12-04 10:11:24,2018-12-04 10:11:24,0.299s,PASSED
+"setText(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/input_Masuk Futuready_email""), ""hadyantaris@outlook.com"")",Firefox 63.0,,2018-12-04 10:11:24,2018-12-04 10:11:24,0.106s,PASSED
+"setEncryptedText(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/input_Masuk Futuready_password""), ""fdb7XptOiRBV7ErEd46qXQ=="")",Firefox 63.0,,2018-12-04 10:11:24,2018-12-04 10:11:24,0.107s,PASSED
+"click(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/button_Masuk""))",Firefox 63.0,,2018-12-04 10:11:24,2018-12-04 10:11:25,1.210s,PASSED
+"click(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/button_Langganan""))",Firefox 63.0,,2018-12-04 10:11:25,2018-12-04 10:11:26,0.276s,PASSED
+"click(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/label_Data wajib diisi""))",Firefox 63.0,,2018-12-04 10:11:26,2018-12-04 10:11:26,0.259s,PASSED
+"verifyElementPresent(findTestObject(""SubscribeValidation_OR/Page_Futuready Supermarket Asuransi/label_Data wajib diisi""), 0)",Firefox 63.0,,2018-12-04 10:11:26,2018-12-04 10:11:26,0.021s,PASSED
+closeBrowser(),Firefox 63.0,,2018-12-04 10:11:26,2018-12-04 10:11:27,0.707s,PASSED
